@@ -1,0 +1,59 @@
+.pookie-container {
+    min-width: 350px;
+    border: none;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, rgb(203, 244, 233), rgb(10, 125, 118));
+    box-shadow: 10px 10px 20px rgb(99, 99, 99);
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.image{
+    width: 200px;
+    height:250px;
+    margin: 20px auto;
+    border: 1px solid green;
+}
+
+.hide{
+    display: none;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 20px;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 10px;
+    background-color: rgb(215, 237, 215);
+    box-shadow: 5px 5px 4px rgb(71, 71, 71);
+    color: rgb(7, 11, 15);
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: rgb(134, 134, 224);
+}
+
+.shift-right{
+    transform: translateX(100px);
+    transition: transform 100ms ease-out;
+}
+.shift-back{
+    transform: translateX(0);
+    transition: transform 100ms ease-out;
+}
