@@ -1,5 +1,5 @@
 .pookie-container {
-    /* min-width: 350px; */
+    width: 70%;
     border: none;
     border-radius: 40px;
     display: flex;
@@ -10,7 +10,7 @@
     box-shadow: 10px 10px 20px rgb(99, 99, 99);
 }
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
     .pookie-container{
         width: 70%;
     }
@@ -20,7 +20,7 @@
     .pookie-container{
         min-width: 350px;
     }
-}
+} */
 
 h1{
     margin-top: 10px;
